@@ -1,0 +1,15 @@
+.inputStyle {
+    height: 55px;
+    align-content: center;
+    width: 100%;
+}
+
+div.wrapper {
+    height: 55px;
+    border:1px solid black;
+}
+
+input[type="text"] {
+    display: block;
+    margin : 0 auto;
+}

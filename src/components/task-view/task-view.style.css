@@ -1,0 +1,49 @@
+.box {
+    float: left;
+    width: 80%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-top: 1px solid #e6e6e6;
+}
+
+.box:last-child {
+    margin-right: 0;
+}
+
+.left {
+    float:left;
+    width:20px;
+}
+
+.center {
+    display: inline-block;
+    margin:0 auto;
+    width:85%;
+    font-size: larger;
+}
+
+.textStrike {
+    font-size: larger;
+    display: inline-block;
+    margin:0 auto;
+    width:85%;
+    text-decoration: line-through;
+}
+
+.right {
+    float:right;
+    width:5%;
+}
+
+.closeImg {
+    cursor:pointer;
+    float:right;
+    width: 20px;
+}
+
+textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
